@@ -1,4 +1,4 @@
-﻿namespace AdministrativeUnitsAPI.Models
+﻿namespace QuanlytrongtrotMVC.Models
 {
     public class AdministrativeUnit
     {

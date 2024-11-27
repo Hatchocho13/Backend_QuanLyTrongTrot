@@ -1,4 +1,4 @@
-namespace Quanlytrongtrot.Models
+namespace QuanlytrongtrotMVC.Models
 {
     public class ErrorViewModel
     {

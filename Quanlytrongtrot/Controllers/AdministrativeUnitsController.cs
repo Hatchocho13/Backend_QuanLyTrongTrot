@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
-using AdministrativeUnitsAPI.Models;
+using QuanlytrongtrotMVC.Models;
 
-namespace AdministrativeUnitsAPI.Controllers
+namespace QuanlytrongtrotMVC.Controllers
 
 {
     [ApiController]
@@ -77,16 +77,16 @@ namespace AdministrativeUnitsAPI.Controllers
                     command.Parameters.AddWithValue("@TenXa", newUnit.Xa);
 
                     connection.Open();
-                        int rowsAffected = command.ExecuteNonQuery();
+                    int rowsAffected = command.ExecuteNonQuery();
 
-                        if (rowsAffected > 0)
-                        {
-                            return Ok("Đơn vị hành chính đã được thêm thành công.");
-                        }
-                        else
-                        {
-                            return StatusCode(500, "Không thể thêm đơn vị hành chính.");
-                        }                
+                    if (rowsAffected > 0)
+                    {
+                        return Ok("Đơn vị hành chính đã được thêm thành công.");
+                    }
+                    else
+                    {
+                        return StatusCode(500, "Không thể thêm đơn vị hành chính.");
+                    }
                 }
             }
         }
@@ -161,11 +161,8 @@ namespace AdministrativeUnitsAPI.Controllers
                 }
             }
 
-            return Ok("Đã xóa đơn vị hành chính thành công." );
+            return Ok("Đã xóa đơn vị hành chính thành công.");
         }
 
     }
 }
-
-
-

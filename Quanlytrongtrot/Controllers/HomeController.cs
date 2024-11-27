@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Quanlytrongtrot.Models;
+using QuanlytrongtrotMVC.Models;
 using System.Diagnostics;
 
 namespace Quanlytrongtrot.Controllers

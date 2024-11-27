@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J9srzc7f+kFAHymjMJKNpuEJA8+Zj1uAwe+Phip2mTGinksYeGiMaYmuuXBW1oF/lE85Xkex4TWA1FERe0VCUg==",
+  "dgSpecHash": "MeYg/HHCB0zCL2VF7qsqOarPkP8CRmsI2itFH2/GwZV5YYWLiximc9hdbNP1cfSLaY+iK+gJwScodwWb+Ba9wQ==",
   "success": true,
-  "projectFilePath": "D:\\KTPMUD\\Quanlytrongtrot\\Quanlytrongtrot.csproj",
+  "projectFilePath": "D:\\KTPMUD\\Quanlytrongtrot\\QuanlytrongtrotMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Trung\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Trung\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
